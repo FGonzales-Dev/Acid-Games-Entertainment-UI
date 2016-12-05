@@ -1,25 +1,17 @@
-<style>
-
-
-
-.nav{
-background-color: #595959;
-list-style: none;
-
-text-align: center;
-}
-.nav > li {
-
-  display: inline-block;
-  text-align: center;
+.name{
+	text-align: center;
 }
 
-.nav > li > a
-{
+.navbar{
 
-  color: black;
+	height: 100px;
 }
 
+.navbar-center {
+    display: inline-block;
+    float: none;
+}
 
-
-</style>
+.navbar .navbar-collapse {
+    text-align: center;
+}
