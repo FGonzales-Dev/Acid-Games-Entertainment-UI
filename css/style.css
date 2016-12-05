@@ -1,9 +1,25 @@
-.navbar{
-	font-family: 'Bungee', cursive;
+<style>
+
+
+
+.nav{
+background-color: #595959;
+list-style: none;
+
+text-align: center;
+}
+.nav > li {
+
+  display: inline-block;
+  text-align: center;
 }
 
-.p1{
+.nav > li > a
+{
 
-	font-family: 'Bungee', cursive;
+  color: black;
 }
 
+
+
+</style>
