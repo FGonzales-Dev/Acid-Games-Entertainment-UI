@@ -7,10 +7,11 @@ html, body {
 	text-align: center;
 }
 
-.navbar{
+.navbar-default {
+    background-color: #272626;
+    height: 100px;
+      margin-bottom: 0!important;
 
-	height: 80px;
-	background: #272626;
 }
 
 footer{
