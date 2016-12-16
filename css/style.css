@@ -7,12 +7,8 @@ html, body {
 	text-align: center;
 }
 
-.navbar-default {
-    background-color: #272626;
-    height: 100px;
-      margin-bottom: 0!important;
 
-}
+
 
 footer{
 
@@ -23,3 +19,5 @@ h5, h6{
 
 	color: white;
 }
+
+
