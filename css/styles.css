@@ -584,9 +584,13 @@ Hero
     padding: 60px 0 60px 0;
   height: auto;
   width: auto;
-    background: url('../img/cm.jpg') no-repeat center center;
-    background-size: cover;
-    color: #fff;
+    background: url('../img/cm.jpg') ;
+
+
+    background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
 }
 .hero h1 {
     margin: 200px 0 45px 0;
@@ -934,8 +938,15 @@ Screenshots
 Download Now
 ========================================================================== */
 .download {
-    padding: 100px 0;
-    background-color:  #b1ffa7;
+    position: relative;
+    background: url('../img/team.jpg');
+    background-repeat: no-repeat;                
+    height: 768px;    
+    margin-left: auto;      
+    margin-right: auto;   
+
+    background-size:contain;
+background-position:center;
 }
 .download h1 {
     margin: 0 0 15px 0;
