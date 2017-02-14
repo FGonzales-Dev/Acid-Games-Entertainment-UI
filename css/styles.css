@@ -596,10 +596,11 @@ background-size: cover;
     margin: 200px 0 45px 0;
     font-weight: 300;
     font-size: 45px;
+     color: #ffffff;
 }
 .hero h1 span {
     display: inline-block;
-    color: #a1a9b0;
+    color: #ffffff;
 }
 #home {
     width: 100%;
