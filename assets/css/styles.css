@@ -219,3 +219,29 @@ ul.social-icons {
       -ms-transform: translate(0px, 0px);
       transform: translate(0px, 0px);
   }
+.news{
+
+  background:#1c1c20; 
+  background-size:contain;
+  border:none;
+  height: 500px; 
+  width: auto;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.news .scolor-image .scolor-logo {
+
+
+}
+
+
+footer .footer-logo .footer-age-logo {
+
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+
+}
