@@ -1,10 +1,11 @@
-.social-media {
-    width:1000px;
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+.footer-social-icons {
+  text-align: center;
+    width: auto;
     display:block;
-    margin: 0 auto;
+  
 }
-
-
 .social-icon {
     color: #fff;
 }
@@ -15,8 +16,6 @@ ul.social-icons {
     vertical-align: top;
     display: inline;
     height: 100px;
-      margin: 10px ;
-
 }
 .social-icons a {
     color: #fff;
@@ -46,18 +45,7 @@ ul.social-icons {
 .fa-twitter:hover {
     background-color: #00aced;
 }
-.fa-rss {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-rss:hover {
-    background-color: #eb8231;
-}
+
 .fa-youtube {
     padding:10px 14px;
     -o-transition:.5s;
@@ -94,32 +82,21 @@ ul.social-icons {
 .fa-google-plus:hover {
     background-color: #e25714;
 }
-.contact-us .container {
-  width: 1000px;
-  height: 10px;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  
-  margin: auto;
-}
 
+.contact-us .text {
+
+  padding-top: 200px;
+}
 .contact-us{
   background:url(../../assets/img/second-banner.png); 
-  background-size:contain;
+  background-size:cover;
   border:none;
-  height: 630px;  
+  height: 500px; 
   width: auto;
 
 }
 
 
-.contact-us h1 {
-
-  text-decoration-color: white;
-}
   .navbar{
 
       min-height: 80px;
