@@ -1,6 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
+
+/*
+=============================SERVICE SECTION=========================================*/
 
 
 .service {
@@ -9,6 +10,285 @@
   padding-left: 50px;
 }
 
+
+.service-header h1 {
+ word-wrap: break-word;
+  border-bottom:2px solid #053560; 
+  width:100%;
+  font-size: 45px;
+  font-weight: 800;
+  color: #1e3342;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+
+}
+.service-header h2 {
+  margin-top: 0px;
+  background-color: #053560;
+  display: inline-block;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 25px;
+
+}
+
+
+
+
+.div-service {
+  padding-top: 50px;
+}
+
+.div-service2 {
+  padding-top: 50px;
+}
+.div-service3 {
+  padding-top: 50px;
+}
+
+
+
+
+.gamedev-title h1 {
+  word-wrap: break-word;
+  border-bottom:3px solid #1e3342; 
+  width:80%;
+  padding-bottom:5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e3342;
+}
+
+.gamedev-desc h2 {
+  color: #828282;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 60px;
+  padding-right: 30px;
+  opacity: 0.5;
+  letter-spacing: 2px;
+
+
+}
+
+.mobileapp-title h1 {
+  word-wrap: break-word;
+  border-bottom:3px solid #1e3342; 
+  width:80%;
+  padding-bottom:5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e3342;
+}
+
+.mobileapp-desc h2 {
+  color: #828282;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 60px;
+  padding-right: 30px;
+  opacity: 0.5;
+  letter-spacing: 2px;
+
+}
+
+.webdev-title h1 {
+  word-wrap: break-word;
+  border-bottom:3px solid #1e3342; 
+  width:80%;
+  padding-bottom:5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e3342;
+}
+.webdev-desc h2 {
+  color: #828282;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 60px;
+  padding-right: 30px;
+  opacity: 0.5;
+  letter-spacing: 2px;
+
+}
+
+.threed-title h1 {
+  word-wrap: break-word;
+  border-bottom:3px solid #1e3342; 
+  width:80%;
+  padding-bottom:5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e3342;
+}
+
+
+.threed-desc h2 {
+   color: #828282;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 60px;
+  padding-right: 30px;
+  opacity: 0.5;
+  letter-spacing: 2px;
+}
+
+.graphics-title h1 {
+  word-wrap: break-word;
+  border-bottom:3px solid #1e3342; 
+  width:45%;
+  padding-bottom:5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e3342;
+}
+
+.graphics-desc h2 {
+
+  color: #828282;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 27%;
+  padding-right: 25%;
+  opacity: 0.5;
+  letter-spacing: 2px;
+}
+
+
+
+
+
+
+/*=======================================================================================
+*/
+
+
+
+/*==============================ART SECTION==================================================*/
+
+
+.art-portfolio {
+    padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+.art-header h1 {
+  word-wrap: break-word;
+  border-bottom:2px solid #053560; 
+  width:50%;
+  font-size: 45px;
+  font-weight: 800;
+  color: #1e3342;
+  letter-spacing: 2px;
+
+ 
+
+
+}
+.art-div {
+
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+.art-div2 {
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.art-box {
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/*===============================================================================================*/
+
+
+/*==================================ABOUT US SECTION=====================================================*/
+
+.about-team h2 {
+ padding-top: 5%;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 30%;
+}
+
+}
+.about-age{
+  background-image: url(../img/laptopbg.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  display: block;
+
+}
+
+.about-desc p
+{
+  padding-top: 5%;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 30%;
+}
+
+.about-container {
+
+  background-image: url(../img/acidbg.png);
+    background-repeat:no-repeat;
+   background-size:cover;
+ display: block;
+
+}
+
+.about-header h1 {
+  margin-bottom: 0;
+  color: white;
+  font-size: 70px;
+  padding-top: 10%;
+  font-weight: normal;
+  padding-left: 30px;
+
+}
+
+.about-header h2 {
+
+  color: white;
+  font-size: 100px;
+  margin-top: 0;
+  font-weight: 700;
+   padding-left: 30px;
+   border-bottom:10px solid #ffffff; 
+
+}
+
+/*
+============================WORK SECTION=============================*/
+.work-header h1{
+  word-wrap: break-word;
+  border-bottom:2px solid #053560; 
+  width:100%;
+  font-size: 45px;
+  font-weight: 800;
+  color: #1e3342;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+ 
+}
+
+.work-header h2 {
+  margin-top: 0px;
+  background-color: #053560;
+  display: inline-block;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 25px;
+
+}
 .work {
 
  padding-right: 50px;
@@ -17,8 +297,7 @@
 
 .profile{
 
-   padding-right: 50px;
-  padding-left: 50px;
+
 }
 
 .footer-social-icons {
