@@ -1,5 +1,14 @@
+.navoverlay{
+  padding-top: 32%;
+   background:url(../../assets/img/acidbg.png);
+  background-repeat:no-repeat;
+background-size:cover;
+ display: block;
+}
+ul{
+   list-style-type: none;
 
-
+}
 /*
 =============================SERVICE SECTION=========================================*/
 
@@ -397,138 +406,7 @@ ul.social-icons {
 }
 
 
-/*  .navbar{
 
-      min-height: 80px;
-      background: #1e2f3e;
-      opacity: 50px;
-      border: none;
-
-  }
-      .navbar .navbar-nav > li > a {
-          font-size: 15px;
-          display: inline-block;
-          float: none;
-          vertical-align: top;
-          color: white;
-      }
-
-
-
-
-       .navbar .navbar-nav >li > a:hover,
-       .navbar .navbar-nav > li > a:focus{
-          color: #0096ff;
-       }
-
-
-      .navbar .collapse{
-          padding-top: 20px;
-          text-align: center;
-      }
-*/
-
-
-  #team .row .thumbnail{
-  	box-shadow: none;
-  	border: none;
-  }
-
-  /* ==========================================================================
-  Screenshots
-  ========================================================================== */
-  .screenshots ul {
-      margin: 0;
-      padding: 100px 0 0px 0;
-      width: 100%;
-  }
-  .screenshots ul li {
-      float: left;
-      min-height: 100%;
-      width: 25%;
-      background-color: #000;
-      list-style: none;
-  }
-  .screenshots figure {
-      position: relative;
-      overflow: hidden;
-  }
-  .screenshots figure img {
-      width: 100%;
-      height: 100%;
-      -webkit-transition: all 300ms ease-in-out;
-      transition: all 300ms ease-in-out;
-  }
-  .screenshots figure:hover img, .screenshots figure:focus img {
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1);
-  }
-  .screenshots figcaption {
-      position: absolute;
-      top: 0;
-      left: 0;
-      padding: 25% 0;
-      width: 100%;
-      height: 100%;
-      background-color: #616161;
-      text-align: center;
-      font-size: 15px;
-      opacity: 0;
-      -webkit-transition: all 300ms ease-in-out;
-      transition: all 300ms ease-in-out;
-  }
-  .screenshots figcaption a {
-      color: #fff
-  }
-  .screenshots figcaption a:hover, .screenshots figcaption a:focus {
-      color: #fff
-  }
-  .screenshots figure:hover figcaption, .screenshots figure:focus figcaption {
-      opacity: .8
-  }
-  .visible {
-      opacity: 1
-  }
-  .screenshots figure.cs-hover figcaption {
-      opacity: 1
-  }
-  .screenshots figcaption i {
-      font-size: 35px
-  }
-  .screenshots figcaption p {
-      margin-bottom: 0;
-      text-transform: uppercase;
-      font-weight: 400;
-  }
-  .screenshots figcaption .caption-content {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-top: -40px;
-      margin-left: -100px;
-      width: 200px;
-      -webkit-transform: translate(0px, 15px);
-      -ms-transform: translate(0px, 15px);
-      transform: translate(0px, 15px);
-      -webkit-transition: all 300ms ease-in-out;
-      transition: all 300ms ease-in-out;
-  }
-  .screenshots figure:hover figcaption .caption-content, .screenshots figure:focus figcaption .caption-content {
-      -webkit-transform: translate(0px, 0px);
-      -ms-transform: translate(0px, 0px);
-      transform: translate(0px, 0px);
-  }
-
-footer .footer-logo .footer-age-logo {
-
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-
-
-}
 /*
 Menu*/
 
@@ -624,4 +502,88 @@ h3 {
     .menu-btn {
         right: 25px;
     }
+}
+
+
+footer {
+
+ background:url(../../assets/img/acidbg.png);
+}
+
+footer .footer-logo .footer-age-logo {
+
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+.footer-nav {
+ padding-right: 50px;
+ padding-left: 50px;
+
+}
+.footer-about h1{
+font-size: 20px;
+color: white;
+ word-wrap: break-word;
+  border-bottom:2px solid #ffffff; 
+  width: 100%;
+}
+
+.footer-about ul li a{
+  
+  color: #d8d8d8;
+  font-size: 20px;
+  text-align: left;
+}
+
+.footer-gamenart h1{
+ 
+font-size: 20px;
+color: white;
+ word-wrap: break-word;
+  border-bottom:2px solid #ffffff; 
+  width: 100%;
+
+}
+
+.footer-gamenart ul li a {
+ color: #d8d8d8;
+  font-size: 20px;
+  text-align: left;
+
+}
+.footer-mobilenweb h1 {
+
+font-size: 20px;
+color: white;
+ word-wrap: break-word;
+  border-bottom:2px solid #ffffff; 
+  width: 100%;
+
+}
+
+.footer-mobilenweb ul li a {
+ color: #d8d8d8;
+  font-size: 20px;
+  text-align: left;
+
+}
+
+.footer-blog h1{
+
+font-size: 20px;
+color: white;
+word-wrap: break-word;
+border-bottom:2px solid #ffffff; 
+width: 100%;
+}
+
+.footer-blog ul li a {
+ color: #d8d8d8;
+  font-size: 20px;
+  text-align: left;
+
 }
