@@ -758,3 +758,50 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }*/
+
+.thumb {
+
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.img-container{
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  ]}
+
+
+/*======================PROFILE=============================*/
+
+
+.profile-container{
+
+padding-top: 100px;
+
+}
+.about-me{
+padding-right: 50px;
+padding-bottom: 50px;
+padding-top: 50px;
+padding-left: 50px;
+}
+
+.skill
+{
+
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.skill2
+{
+
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
