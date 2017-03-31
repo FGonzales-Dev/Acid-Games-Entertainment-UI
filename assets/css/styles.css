@@ -1,8 +1,79 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+html,body{ 
+  width:100%;
+  height:100%;
+
+
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+
+  background-color: #1e2f3e;
+  background-image: url('');
+  background-repeat: no-repeat;
+
+  position: fixed;
+  z-index: 50;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+}
+
+.fixed-background{
+  z-index: 100;
+  position: relative;
+}
+
+
 .navoverlay{
+  z-index: 500;
+  position: relative;
   padding-top: 32%;
-   background:url(../../assets/img/acidbg.png);
+  background:url(../../assets/img/acidbg.png);
   background-repeat:no-repeat;
-background-size:cover;
+  background-size:cover;
  display: block;
 }
 ul{
@@ -17,6 +88,7 @@ ul{
 
   padding-right: 50px;
   padding-left: 50px;
+
 }
 
 
@@ -178,7 +250,7 @@ ul{
 
 
 .art-portfolio {
-    padding-right: 50px;
+  padding-right: 50px;
   padding-left: 50px;
 
 }
@@ -442,6 +514,7 @@ h3 {
     z-index: 999;
     display: inline;
     font-size: 50px;
+    z-index: 200;
 
 }
 
@@ -485,7 +558,8 @@ h3 {
 /* OVERLAY */
 
 .overlay {
-    position: fixed;
+  z-index: 500;
+    position: relative;
     top: 0;
     z-index: 99;
     display: none;
@@ -507,6 +581,8 @@ h3 {
 
 footer {
 
+  z-index: 100;
+  position: relative;
  background:url(../../assets/img/acidbg.png);
 }
 
@@ -607,6 +683,8 @@ width: 100%;
   padding-bottom: 10%;
 }
 
+
+
 .scolor-desc{
 
   padding-top: 50px;
@@ -636,7 +714,7 @@ input[name=scolor]{
 
 .div-about-us{
   max-width: 101%;
-  background-image: url(../img/laptopbg.png);
+
   background-repeat:no-repeat;
   background-size:cover;
   margin-bottom: 5px;
