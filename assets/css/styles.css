@@ -48,7 +48,7 @@ canvas{
 
 #particles-js{
 
-  background-color: #1e2f3e;
+  background-color: #030b12;
   background-image: url('');
   background-repeat: no-repeat;
 
@@ -80,6 +80,37 @@ ul{
    list-style-type: none;
 
 }
+
+
+
+/*============================HEADER SECTION===================================*/
+.header-msg{
+  padding-top: 25px;
+ /* font-family: 'Helvetica', 'Arial', Sans-Serif;*/
+ font-size: 20px;
+ color: white;
+ letter-spacing: 8px;
+ font-weight: 100;
+line-height: 1.25;
+}
+
+.header-btn {
+
+padding-top: 5%;
+padding-bottom: 10%;
+}
+
+.play-web-games {
+
+
+ background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+
+}
+
 /*
 =============================SERVICE SECTION=========================================*/
 
@@ -713,7 +744,7 @@ input[name=scolor]{
 
 
 .div-about-us{
-  max-width: 101%;
+  max-width: 100%;
 
   background-repeat:no-repeat;
   background-size:cover;
