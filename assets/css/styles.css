@@ -86,29 +86,35 @@ ul{
 /*============================HEADER SECTION===================================*/
 .header-msg{
   padding-top: 25px;
- /* font-family: 'Helvetica', 'Arial', Sans-Serif;*/
- font-size: 20px;
+font-family: 'Open Sans Condensed', sans-serif;
+ font-size: 30px;
+
  color: white;
- letter-spacing: 8px;
+ letter-spacing: 10px;
  font-weight: 100;
 line-height: 1.25;
 }
 
 .header-btn {
-
 padding-top: 5%;
 padding-bottom: 10%;
+padding-right: 20%;
+padding-left: 20%;
+
+
 }
 
 .play-web-games {
-
-
- background-color: Transparent;
+  letter-spacing: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    background-color: Transparent;
     background-repeat:no-repeat;
     cursor:pointer;
     overflow: hidden;
     outline:none;
-
+    font-size: 20px;
+    padding: 14px 40px;
 }
 
 /*
@@ -125,18 +131,18 @@ padding-bottom: 10%;
 
 .service-header h1 {
  word-wrap: break-word;
-  border-bottom:2px solid #053560; 
+  border-bottom:2px solid #0fca55; 
   width:100%;
   font-size: 45px;
   font-weight: 800;
-  color: #1e3342;
+  color: white;
   letter-spacing: 2px;
   margin-bottom: 0px;
 
 }
 .service-header h2 {
   margin-top: 0px;
-  background-color: #053560;
+  background-color: #0fca55;
   display: inline-block;
   color: white;
   letter-spacing: 3px;
@@ -164,16 +170,16 @@ padding-bottom: 10%;
 
 .gamedev-title h1 {
   word-wrap: break-word;
-  border-bottom:3px solid #1e3342; 
+  border-bottom:3px solid white; 
   width:80%;
   padding-bottom:5px;
   font-size: 20px;
   font-weight: bold;
-  color: #1e3342;
+  color: white;
 }
 
 .gamedev-desc h2 {
-  color: #828282;
+  color: white;
   font-size: 15px;
   text-align: left;
   padding-left: 60px;
@@ -186,16 +192,16 @@ padding-bottom: 10%;
 
 .mobileapp-title h1 {
   word-wrap: break-word;
-  border-bottom:3px solid #1e3342; 
+  border-bottom:3px solid white; 
   width:80%;
   padding-bottom:5px;
   font-size: 20px;
   font-weight: bold;
-  color: #1e3342;
+  color: white;
 }
 
 .mobileapp-desc h2 {
-  color: #828282;
+  color: white;
   font-size: 15px;
   text-align: left;
   padding-left: 60px;
@@ -207,15 +213,15 @@ padding-bottom: 10%;
 
 .webdev-title h1 {
   word-wrap: break-word;
-  border-bottom:3px solid #1e3342; 
+  border-bottom:3px solid white; 
   width:80%;
   padding-bottom:5px;
   font-size: 20px;
   font-weight: bold;
-  color: #1e3342;
+  color: white;
 }
 .webdev-desc h2 {
-  color: #828282;
+  color: white;
   font-size: 15px;
   text-align: left;
   padding-left: 60px;
@@ -227,17 +233,17 @@ padding-bottom: 10%;
 
 .threed-title h1 {
   word-wrap: break-word;
-  border-bottom:3px solid #1e3342; 
+  border-bottom:3px solid white; 
   width:80%;
   padding-bottom:5px;
   font-size: 20px;
   font-weight: bold;
-  color: #1e3342;
+  color: white;
 }
 
 
 .threed-desc h2 {
-   color: #828282;
+   color: white;
   font-size: 15px;
   text-align: left;
   padding-left: 60px;
@@ -248,17 +254,17 @@ padding-bottom: 10%;
 
 .graphics-title h1 {
   word-wrap: break-word;
-  border-bottom:3px solid #1e3342; 
+  border-bottom:3px solid white; 
   width:45%;
   padding-bottom:5px;
   font-size: 20px;
   font-weight: bold;
-  color: #1e3342;
+  color: white;
 }
 
 .graphics-desc h2 {
 
-  color: #828282;
+  color: white;
   font-size: 15px;
   text-align: left;
   padding-left: 27%;
@@ -288,11 +294,11 @@ padding-bottom: 10%;
 
 .art-header h1 {
   word-wrap: break-word;
-  border-bottom:2px solid #053560; 
+  border-bottom:2px solid white; 
   width:50%;
   font-size: 45px;
   font-weight: 800;
-  color: #1e3342;
+  color: white;
   letter-spacing: 2px;
 
  
@@ -321,61 +327,6 @@ padding-bottom: 10%;
 /*===============================================================================================*/
 
 
-/*==================================ABOUT US SECTION=====================================================*/
-
-.about-team h2 {
- padding-top: 5%;
-  font-size: 20px;
-  color: white;
-  padding-bottom: 30%;
-}
-
-}
-.about-age{
-  background-image: url(../img/laptopbg.png);
-  background-repeat:no-repeat;
-  background-size:cover;
-  display: block;
-
-}
-
-.about-desc p
-{
-  padding-top: 5%;
-  font-size: 20px;
-  color: white;
-  padding-bottom: 30%;
-}
-
-.about-container {
-
-  background-image: url(../img/acidbg.png);
-    background-repeat:no-repeat;
-   background-size:cover;
- display: block;
-
-}
-
-.about-header h1 {
-  margin-bottom: 0;
-  color: white;
-  font-size: 70px;
-  padding-top: 10%;
-  font-weight: normal;
-  padding-left: 30px;
-
-}
-
-.about-header h2 {
-
-  color: white;
-  font-size: 100px;
-  margin-top: 0;
-  font-weight: 700;
-   padding-left: 30px;
-   border-bottom:10px solid #ffffff; 
-
-}
 
 /*
 ============================WORK SECTION=============================*/
@@ -611,7 +562,8 @@ h3 {
 
 
 footer {
-
+font-family: 'Open Sans Condensed', sans-serif;
+letter-spacing: 2px;
   z-index: 100;
   position: relative;
  background:url(../../assets/img/acidbg.png);
@@ -742,17 +694,45 @@ input[name=scolor]{
 
 /*==================================ABOUT US SECTION=====================================================*/
 
+.about-us-header{
 
-.div-about-us{
-  max-width: 100%;
+  font-size: 50px;
+  border-bottom:2px solid white; 
+  width: 100%;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 8px;
+}
 
-  background-repeat:no-repeat;
-  background-size:cover;
-  margin-bottom: 5px;
+.about-us-desc{
+  padding-top: 20px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 3px;
+}
+
+.developer-thumb{
+
+  background-color: transparent;
+ border-width: 3px;
+}
+
+
+.developer-thumb h1 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-top: 20px;
+
 
 }
 
-.div-about-us h1 {
+
+/*.div-about-us h2 {
+font-family: 'Open Sans Condensed', sans-serif;
   word-wrap: break-word;
   border-bottom:3px solid #1e3342; 
   width: 50%
@@ -841,7 +821,7 @@ border-bottom:3px solid #1e3342;
   color: #1e3342;
 }
 
-
+*/
 
 
 /* input[name=submits] {
