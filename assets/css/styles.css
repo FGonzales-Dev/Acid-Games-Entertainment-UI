@@ -1,3 +1,6 @@
+
+
+
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
@@ -67,19 +70,7 @@ canvas{
 }
 
 
-.navoverlay{
-  z-index: 500;
-  position: relative;
-  padding-top: 32%;
-  background:url(../../assets/img/acidbg.png);
-  background-repeat:no-repeat;
-  background-size:cover;
- display: block;
-}
-ul{
-   list-style-type: none;
 
-}
 
 
 
@@ -131,18 +122,17 @@ padding-left: 20%;
 
 .service-header h1 {
  word-wrap: break-word;
-  border-bottom:2px solid #0fca55; 
+  border-bottom:2px solid white; 
   width:100%;
   font-size: 45px;
-  font-weight: 800;
+ font-family: 'Open Sans Condensed', sans-serif;
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   margin-bottom: 0px;
-
 }
 .service-header h2 {
-  margin-top: 0px;
-  background-color: #0fca55;
+  margin-top: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
   display: inline-block;
   color: white;
   letter-spacing: 3px;
@@ -169,107 +159,119 @@ padding-left: 20%;
 
 
 .gamedev-title h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
   word-wrap: break-word;
   border-bottom:3px solid white; 
   width:80%;
   padding-bottom:5px;
-  font-size: 20px;
-  font-weight: bold;
+  padding-top: 20px;
+  font-size: 25px;
   color: white;
+  letter-spacing: 3px;
 }
 
 .gamedev-desc h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 10px;
   color: white;
   font-size: 15px;
   text-align: left;
-  padding-left: 60px;
-  padding-right: 30px;
-  opacity: 0.5;
+  font-weight: lighter;
   letter-spacing: 2px;
-
+  width:80%;
 
 }
 
 .mobileapp-title h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
   word-wrap: break-word;
   border-bottom:3px solid white; 
   width:80%;
   padding-bottom:5px;
-  font-size: 20px;
-  font-weight: bold;
+  padding-top: 20px;
+  font-size: 25px;
   color: white;
+  letter-spacing: 3px;
 }
 
 .mobileapp-desc h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 10px;
   color: white;
   font-size: 15px;
   text-align: left;
-  padding-left: 60px;
-  padding-right: 30px;
-  opacity: 0.5;
+  font-weight: lighter;
   letter-spacing: 2px;
+    width:80%;
 
 }
 
 .webdev-title h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
   word-wrap: break-word;
   border-bottom:3px solid white; 
   width:80%;
   padding-bottom:5px;
-  font-size: 20px;
-  font-weight: bold;
+  padding-top: 20px;
+  font-size: 25px;
   color: white;
+  letter-spacing: 3px;
 }
 .webdev-desc h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 10px;
   color: white;
   font-size: 15px;
   text-align: left;
-  padding-left: 60px;
-  padding-right: 30px;
-  opacity: 0.5;
+  font-weight: lighter;
   letter-spacing: 2px;
-
+    width:80%;
 }
 
 .threed-title h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
   word-wrap: break-word;
   border-bottom:3px solid white; 
   width:80%;
   padding-bottom:5px;
-  font-size: 20px;
-  font-weight: bold;
+  padding-top: 20px;
+  font-size: 25px;
   color: white;
+  letter-spacing: 3px;
 }
 
 
 .threed-desc h2 {
-   color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 10px;
+  color: white;
   font-size: 15px;
   text-align: left;
-  padding-left: 60px;
-  padding-right: 30px;
-  opacity: 0.5;
+  font-weight: lighter;
   letter-spacing: 2px;
+    width:80%;
 }
 
 .graphics-title h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
   word-wrap: break-word;
   border-bottom:3px solid white; 
-  width:45%;
+  width:80%;
   padding-bottom:5px;
-  font-size: 20px;
-  font-weight: bold;
+  padding-top: 20px;
+  font-size: 25px;
   color: white;
+  letter-spacing: 3px;
 }
 
 .graphics-desc h2 {
-
+  font-family: 'Open Sans Condensed', sans-serif;
+  width:80%;
+  padding-top: 10px;
   color: white;
   font-size: 15px;
   text-align: left;
-  padding-left: 27%;
-  padding-right: 25%;
-  opacity: 0.5;
+  font-weight: lighter;
   letter-spacing: 2px;
 }
 
@@ -293,13 +295,15 @@ padding-left: 20%;
 }
 
 .art-header h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
   word-wrap: break-word;
   border-bottom:2px solid white; 
   width:50%;
-  font-size: 45px;
-  font-weight: 800;
+  padding-top: 50px;
+  font-size: 60px;
+font-weight: lighter;
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
 
  
 
@@ -563,11 +567,13 @@ h3 {
 
 footer {
 font-family: 'Open Sans Condensed', sans-serif;
-letter-spacing: 2px;
-  z-index: 100;
-  position: relative;
+letter-spacing: 3px;
+z-index: 100;
+position: relative;
  background:url(../../assets/img/acidbg.png);
 }
+
+
 
 footer .footer-logo .footer-age-logo {
 
@@ -577,20 +583,38 @@ footer .footer-logo .footer-age-logo {
   display: block;
 }
 
-input[name=collaborate] {
-   text-align: center;
-    width: 20%;
-    font-size: 20px;
-    font-family: Prompt;
-    color: #053560;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.footer-title h1{
+font-size: 30px;
+font-weight: lighter;
+padding-top: 25px;
+padding-bottom: 20px;
 }
 
+
+.footer-title2 h1{
+
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 5px;
+}
+.collaborate {  
+
+  letter-spacing: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 30px;
+    padding: 5px 10px;
+  }
+
+
+
 .footer-nav {
+  padding-top: 50px;
  padding-right: 50px;
  padding-left: 50px;
 
@@ -730,6 +754,12 @@ input[name=scolor]{
 
 }
 
+.about-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
 /*.div-about-us h2 {
 font-family: 'Open Sans Condensed', sans-serif;
@@ -893,4 +923,24 @@ padding-left: 50px;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 50px;
+}
+
+/*
+==============================MOBILE DEVICE=======================================*/
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.service-header h1 {
+ word-wrap: break-word;
+  border-bottom:2px solid white; 
+  width:100%;
+  font-size: 10px;
+ font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+}
+
+
 }
