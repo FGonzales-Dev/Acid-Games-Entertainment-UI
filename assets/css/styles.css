@@ -70,10 +70,45 @@
   }
 
 
+.navbar{
+  padding-top: 40px;
+  margin-bottom:0;
+  border:none;
+  background: transparent;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 5px;
+  font-size: 20px;
+  width: 100%;
 
 
+}
 
 
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+
+  vertical-align: top;
+   
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+
+
+}
+
+.nav li{
+  color: white;
+  padding-left: 20px; 
+  padding-right:20px;
+    
+}
+
+.nav.navbar-nav.navbar-center li a {
+    color: white;
+
+}
   /*============================HEADER SECTION===================================*/
   .header-msg{
     padding-top: 25px;
@@ -1329,5 +1364,25 @@ margin-bottom: 20px;
 }
 
 /*===============================================================================================*/
+
+
+/*
+===============NAVBAR==============================*/
+
+
+
+.navbar{
+  padding-top: 1px;
+  margin-bottom:0;
+  border:none;
+  background: transparent;
+  font-family: 'Open Sans Condensed', sans-serif;
+letter-spacing: 5px;
+font-size: 20px;
+  color: white;
+}
+
+/*===============================================================================================*/
+
 
 }
