@@ -340,17 +340,7 @@ margin-bottom: 30px;
   padding-right: 50px;
   padding-left: 50px;
 }
-.art-header h1 {
-  font-family: 'Oswald', sans-serif;
-  word-wrap: break-word;
-  text-align: center;
-  padding-top: 50px;
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-  letter-spacing: 5px;
 
-}
 .art-div {
   padding-top: 0px;
   padding-right: 20px;
@@ -368,20 +358,7 @@ margin-bottom: 30px;
 */
 
 
-.contact-us-header h1 {
-  font-family:  'Oswald', sans-serif;
-  word-wrap: break-word;
-  border-bottom:2px solid white; 
-  width:80%;
-  padding-top: 50px;
-  font-size: 60px;
-  font-weight: lighter;
-  color: white;
-  letter-spacing: 5px;
-  text-align: center;
 
-
-}
 
 .contact-form {
 
