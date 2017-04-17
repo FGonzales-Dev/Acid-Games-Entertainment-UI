@@ -901,8 +901,23 @@ padding-left: 0px;
 }
 /*===============================================================================================*/
 
+.gameapp-title h1 {
+  font-family: 'Oswald', sans-serif;
+  word-wrap: break-word;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 5px;
+  padding-top: 50px;
+  padding-bottom: 0px;
 
+}
 
+.scolor-img{
+  padding-top: 40px;
+}
 
 
 /*
