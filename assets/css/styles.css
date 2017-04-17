@@ -51,7 +51,7 @@
 
   #particles-js{
 
-    background-color: #030b12;
+    background-color: #141c27;
     background-image: url('');
     background-repeat: no-repeat;
 
@@ -70,54 +70,49 @@
   }
 
 
-.navbar{
-  padding-top: 40px;
-  margin-bottom:0;
-  border:none;
-  background: transparent;
-  font-family: 'Open Sans Condensed', sans-serif;
-  letter-spacing: 5px;
-  font-size: 20px;
-  width: 100%;
+  .navbar{
+    margin-bottom:0;
+    border:none;
+    font-family: 'Ubuntu', sans-serif;
+    background: #0b1420;
+    font-size: 18px;
+    width: 100%;
 
 
-}
+  }
 
+ .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
+  }
 
-  vertical-align: top;
-   
-}
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
 
-.navbar .navbar-collapse {
-  text-align: center;
-
-
-}
-
-.nav li{
-  color: white;
-  padding-left: 20px; 
-  padding-right:20px;
+  .nav li{
+    color: white;
+    padding-left: 20px; 
+    padding-right:20px;
     
-}
+  }
 
-.nav.navbar-nav.navbar-center li a {
+  .nav.navbar-nav.navbar-center li a {
     color: white;
 
-}
+  }
   /*============================HEADER SECTION===================================*/
-  .header-msg{
+ .header-image h1 {
     padding-top: 25px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 30px;
-
+   font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+   
     color: white;
     letter-spacing: 10px;
-    font-weight: 100;
+
     line-height: 1.25;
   }
 
@@ -132,7 +127,7 @@
 
   .play-web-games {
     letter-spacing: 5px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: white;
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -143,9 +138,9 @@
     padding: 14px 40px;
   }
 
-    .browse-games {
+  .browse-games {
     letter-spacing: 5px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family:  'Oswald', sans-serif;
     color: white;
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -155,180 +150,199 @@
     font-size: 20px;
     padding: 14px 40px;
   }
+
+  /*==================================ABOUT US SECTION=====================================================*/
+
+.about-us{
+
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+.about-us-img{
+
+  vertical-align: middle;
+}
+.about-us-header{
+
+  font-size: 50px;
+
+
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 8px;
+}
+
+.about-us-desc{
+  padding-top: 20px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 3px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+
+.about-age-desc h2 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+
+}
+.about-age h1 {
+  font-family: 'Oswald', sans-serif;
+  word-wrap: break-word;
+  font-weight: bold;
+  padding-bottom:30px;
+  font-size: 25px;
+  color: white;
+
+
+}
+.about-titles h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  word-wrap: break-word;
+  padding-left: 35px;
+  padding-bottom:5px;
+  padding-top: 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+
+
+}
 
 /*
 =============================SERVICE SECTION=========================================*/
 
 
 .service {
-
   padding-right: 50px;
   padding-left: 50px;
-
 }
 
 
 .service-header h1 {
  word-wrap: break-word;
- border-bottom:2px solid white; 
  width:100%;
- font-size: 45px;
- font-family: 'Open Sans Condensed', sans-serif;
+ font-size: 30px;
+ font-weight: bold;
+ font-family: 'Oswald', sans-serif;
  color: white;
- letter-spacing: 5px;
  margin-bottom: 0px;
+ padding-bottom: 50px;
 }
-.service-header h2 {
-  margin-top: 10px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  display: inline-block;
-  color: white;
-  letter-spacing: 3px;
-  font-weight: lighter;
-  font-size: 25px;
-
-}
-
 
 .service-img{
-
-
-  height: 100px;
+  height: 70px;
   width: auto;
+  vertical-align: middle;
+
 }
 
 .div-service {
   padding-top: 50px;
-}
-
-.div-service2 {
-  padding-top: 50px;
-}
-.div-service3 {
-  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 30px;
 }
 
 
+
+.game {
+  display: flex;
+}
 
 
 .gamedev-title h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
+ font-family: 'Ubuntu', sans-serif;
   word-wrap: break-word;
-  border-bottom:3px solid white; 
-  width:80%;
+  padding-left: 35px;
   padding-bottom:5px;
-  padding-top: 20px;
   font-size: 25px;
   color: white;
-  letter-spacing: 3px;
+  
 }
 
 .gamedev-desc h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
   color: white;
   font-size: 15px;
   text-align: left;
-  font-weight: lighter;
+  
   letter-spacing: 2px;
-  width:80%;
+  padding-left: 35px;
+  padding-right: 5%;
 
 }
 
-.mobileapp-title h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
+
+/*===============================================SCOLOR SECTION================================*/
+
+
+.scolor-desc p {
+
+ font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+  letter-spacing: 2px;
+
+
+}
+.gameapp-title h1 {
+  font-family: 'Oswald', sans-serif;
   word-wrap: break-word;
-  border-bottom:3px solid white; 
-  width:80%;
-  padding-bottom:5px;
-  padding-top: 20px;
-  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
   color: white;
-  letter-spacing: 3px;
-}
-
-.mobileapp-desc h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 10px;
-  color: white;
-  font-size: 15px;
-  text-align: left;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  width:80%;
+  letter-spacing: 5px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 
 }
 
-.webdev-title h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
+/*==============================ART SECTION==================================================*/
+
+.art-portfolio {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.art-header h1 {
+  font-family: 'Oswald', sans-serif;
   word-wrap: break-word;
-  border-bottom:3px solid white; 
-  width:80%;
-  padding-bottom:5px;
-  padding-top: 20px;
-  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
   color: white;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
+
 }
-.webdev-desc h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 10px;
-  color: white;
-  font-size: 15px;
-  text-align: left;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  width:80%;
+.art-div {
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
-
-.threed-title h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  word-wrap: break-word;
-  border-bottom:3px solid white; 
-  width:80%;
-  padding-bottom:5px;
-  padding-top: 20px;
-  font-size: 25px;
-  color: white;
-  letter-spacing: 3px;
+.art-box {
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
-
-.threed-desc h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 10px;
-  color: white;
-  font-size: 15px;
-  text-align: left;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  width:80%;
-}
-
-.graphics-title h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  word-wrap: break-word;
-  border-bottom:3px solid white; 
-  width:50%;
-  padding-bottom:5px;
-  padding-top: 20px;
-  font-size: 25px;
-  color: white;
-  letter-spacing: 3px;
-}
-
-.graphics-desc h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  width:50%;
-  padding-top: 10px;
-  color: white;
-  font-size: 15px;
-  text-align: left;
-  font-weight: lighter;
-  letter-spacing: 2px;
-}
-
-
 
 
 
@@ -338,7 +352,7 @@
 
 
 .contact-us-header h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family:  'Oswald', sans-serif;
   word-wrap: break-word;
   border-bottom:2px solid white; 
   width:80%;
@@ -361,140 +375,23 @@
 }
 
 .send{
-    letter-spacing: 5px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: white;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    font-size: 20px;
-    padding: 14px 40px;
-
-}
-/*==============================ART SECTION==================================================*/
-
-.img-see-more-overlay{
-
-
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.see-more-text h1{
-padding-top: 100px;
-z-index: 100;
-position: absolute;
-color: white;
-font-size: 50px;
-font-weight: 500;
-}
-
-.art-box1 {   text-align: center; }
-.see-more-img{
-  z-index: -100;
-  position:relative;
-  height: 430px;
-  width: auto;
-  text-align: center;
-}
-
-
-
-.art-portfolio {
-  padding-right: 50px;
-  padding-left: 50px;
-
-}
-
-.art-header h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  word-wrap: break-word;
-  border-bottom:2px solid white; 
-  width:80%;
-  padding-top: 50px;
-  font-size: 60px;
-  font-weight: lighter;
-  color: white;
   letter-spacing: 5px;
-  text-align: center;
-   text-align:center;
-    vertical-align:middle;
-
+  font-family:  'Oswald', sans-serif;
+  color: white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-size: 20px;
+  padding: 14px 40px;
 
 }
-.art-div {
 
-  padding-top: 0px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-
-.art-div2 {
-
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-.art-box {
-
-  padding-left: 10px;
-  padding-right: 10px;
-}
 /*===============================================================================================*/
 
 
 
-/*
-============================WORK SECTION=============================*/
-.work-header h1{
-  font-family: 'Open Sans Condensed', sans-serif;
-  word-wrap: break-word;
-  border-bottom:2px solid white; 
-  width:100%;
-  padding-top: 50px;
-  font-size: 60px;
-  font-weight: lighter;
-  color: white;
-  letter-spacing: 10px;
-  text-align: center;
-
-}
-
-.work-header h2 {
-  margin-top: 0px;
-font-family: 'Open Sans Condensed', sans-serif;
-  word-wrap: break-word;
-  display: inline-block;
-  color: white;
-  letter-spacing: 3px;
-  font-weight: lighter;
-  font-size: 25px;
-  text-align: center;
-  width: 100%;
-  padding-top: 20px;
-}
-
-.work {
-
- padding-right: 50px;
- padding-left: 50px;
-}
-
-.profile{
-
-
-}
 
 .footer-social-icons {
   text-align: center;
@@ -592,110 +489,8 @@ ul.social-icons {
 
 }
 
-
-
-/*
-Menu*/
-
-
-
-body,
-html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  font-family: 'Raleway', sans-serif;
-
-
-}
-
-h3 {
-  color: #e9e9e9;
-  text-align: center;
-  margin: 0;
-  padding: 10px 0 0;
-}
-
-
-
-
-/* OPEN / CLOSE BTNS */
-
-.menu-btn {
-  position: absolute;
-  top: 6px;
-  right: 20px;
-  z-index: 999;
-  display: inline;
-  font-size: 50px;
-  z-index: 200;
-
-}
-
-.menu-btn a {
-  display: inline-block;
-  text-decoration: none;
-  color: #4CAF50
-  /* safari hack */
-}
-
-.btn-open:after {
-
-  color: white;
-  content: "\f394";
-  font-family: "Ionicons";
-  -webkit-transition: all .2s linear 0s;
-  -moz-transition: all .2s linear 0s;
-  -o-transition: all .2s linear 0s;
-  transition-property: all .2s linear 0s;
-}
-
-.btn-open:hover:after {
-  color: #34B484;
-}
-
-.btn-close:after {
-  color: #fff;
-  content: "\f2d7";
-  font-family: "Ionicons";
-  -webkit-transition: all .2s linear 0s;
-  -moz-transition: all .2s linear 0s;
-  -o-transition: all .2s linear 0s;
-  transition-property: all .2s linear 0s;
-}
-
-.btn-close:hover:after {
-  color: #34B484;
-}
-
-
-/* OVERLAY */
-
-.overlay {
-  z-index: 500;
-  position: relative;
-  top: 0;
-  z-index: 99;
-  display: none;
-  overflow: auto;
-  width: 100%;
-  height: 100%;
-  background: #333;
-}
-
-
-/* RESPONSIVE */
-
-@media screen and (max-width: 768px) {
-  .menu-btn {
-    right: 25px;
-  }
-}
-
-
 footer {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family:  'Oswald', sans-serif;
   letter-spacing: 3px;
   z-index: 100;
   position: relative;
@@ -729,7 +524,7 @@ footer .footer-logo .footer-age-logo {
 .collaborate {  
 
   letter-spacing: 5px;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family:  'Oswald', sans-serif;
   color: white;
   background-color: Transparent;
   background-repeat:no-repeat;
@@ -797,7 +592,6 @@ footer .footer-logo .footer-age-logo {
 }
 
 .footer-blog h1{
-
   font-size: 20px;
   color: white;
   word-wrap: break-word;
@@ -812,157 +606,92 @@ footer .footer-logo .footer-age-logo {
 
 }
 
-.scolor{
 
 
-  padding-top: 5%;
-  padding-bottom: 10%;
+
+
+
+
+  /*======================PROFILE=============================*/
+
+
+  .profile-container{
+
+    padding-top: 100px;
+
+  }
+  .about-me{
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  .skill
+  {
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+  }
+
+  .skill2
+  {
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+  }
+
+
+
+
+  /*==============================DEVELOPER.HTML===============================      */
+
+
+
+.about-developers {
+ display: flex;
+  margin-bottom: 30px;
+}
+
+.about-projects{
+
+
+margin-bottom: 30px;
+ display: flex;
+}
+
+.about-technologies{
+
+   display: flex;
 }
 
 
+  .dev-img {
 
-.scolor-desc{
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 50px;
-  text-align: center;
-  color: white;
-  font-size: 17px;
-  text-align: center;
-  letter-spacing: 3px;
-  padding-bottom: 50px;
-}
+    padding-top: 100px;
+    padding-right: 70px;  
+    padding-left: 70px;
 
+  }
 
+  .dev-header h1 {
+    font-family:  'Oswald', sans-serif;
+    word-wrap: break-word;
+    border-bottom:2px solid white; 
+    width:100%;
 
-/*==================================ABOUT US SECTION=====================================================*/
-
-.about-us-header{
-
-  font-size: 50px;
-  border-bottom:2px solid white; 
-  width: 100%;
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  letter-spacing: 8px;
-}
-
-.about-us-desc{
-  padding-top: 20px;
-  font-size: 20px;
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  letter-spacing: 3px;
-}
-
- a:hover {
-color: green;
-
-
-}
-.developer-thumb{
-
-  background-color: transparent;
-  border-width: 3px;
-}
-
-
-.developer-thumb h1 {
-  font-size: 20px;
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  letter-spacing: 3px;
-  text-align: center;
-  padding-top: 20px;
-
-
-}
-
-.about-container{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
+    font-size: 60px;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-bottom: 100px;
 
 
 
-    .thumb {
-
-      padding-right: 10px;
-      padding-left: 10px;
-      padding-top: 10px;
-      padding-bottom: 30px;
-    }
-    .img-container{
-      padding-right: 100px;
-      padding-left: 100px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-
-      ]}
-
-
-      /*======================PROFILE=============================*/
-
-
-      .profile-container{
-
-        padding-top: 100px;
-
-      }
-      .about-me{
-        padding-right: 50px;
-        padding-bottom: 50px;
-        padding-top: 50px;
-        padding-left: 50px;
-      }
-
-      .skill
-      {
-
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 50px;
-      }
-
-      .skill2
-      {
-
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 50px;
-      }
-
-
-
-
-/*==============================DEVELOPER.HTML===============================      */
-
-
-.dev-img {
-
-  padding-top: 100px;
-  padding-right: 70px;  
-  padding-left: 70px;
-
-}
-
-.dev-header h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  word-wrap: break-word;
-  border-bottom:2px solid white; 
-  width:100%;
-
-  font-size: 60px;
-  font-weight: lighter;
-  color: white;
-  letter-spacing: 10px;
-  text-align: center;
-margin-bottom: 100px;
-
-
-
-}
+  }
 
 /*====================================================================================
 */
@@ -973,13 +702,13 @@ margin-bottom: 100px;
 @media screen and (max-width:768px) {
 
 
-/*=================HEADER=========================*/
+  /*=================HEADER=========================*/
 
 
 
   .play-web-games {
 
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family:  'Oswald', sans-serif;
     color: white;
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -987,13 +716,13 @@ margin-bottom: 100px;
     overflow: hidden;
     outline:none;
     font-size: 20px;
-     padding: 0 0 0 0;
+    padding: 0 0 0 0;
 
   }
 
-    .browse-games {
-      margin-top: 15px;
-    font-family: 'Open Sans Condensed', sans-serif;
+  .browse-games {
+    margin-top: 15px;
+    font-family:  'Oswald', sans-serif;
     color: white;
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -1001,196 +730,145 @@ margin-bottom: 100px;
     overflow: hidden;
     outline:none;
     font-size: 20px;
-     padding: 0 0 0 0;
+    padding: 0 0 0 0;
   }
 
 
 
 
- .header-msg{
-  padding-top: 25px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 25px;
-  color: white;
-  letter-spacing: 5px;
-  font-weight: 100;
-  line-height: 1.25;
-}
+  .header-msg{
+    padding-top: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 100;
+    line-height: 1.25;
+  }
 
 
 /*
 ==================ABOUT US=====================*/
-.about-us-header{
+.div-about-us {
 
-  font-size: 40px;
-  border-bottom:2px solid white; 
-  width: 100%;
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  letter-spacing: 8px;
+padding-right: 0px;
+padding-left: 0px;
+
 }
 
-.about-us-desc{
+.about-developers{
+
+  display: inline;
+}
+
+.about-projects{
+
+  display: inline;
+}
+
+.about-technologies {
+
+
+  display: inline;
+}
+
+.about-titles h1 {
+  font-family:  'Oswald', sans-serif;
+  word-wrap: break-word;
+  text-align: center; 
+  padding-bottom:5px;
+  color: white;
+  font-size: 14px;
   padding-top: 20px;
-  font-size: 15px;
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
+ padding-left: 0px;
+ padding-right: 0px;
 
 }
 
+.about-age {
+  text-align: center;
+}
+
+.about-age-desc h1 {
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+
+
+}
 
 /*=======================SERVICE=======================*/
-  .service-header h1 {
-   word-wrap: break-word;
-   border-bottom:2px solid white; 
-   width:100%;
-   font-size: 20px;
-   font-family: 'Open Sans Condensed', sans-serif;
-   color: white;
-   letter-spacing: 3px;
-   margin-bottom: 0px;
- }
 
 
+.service {
+
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.service-header h1 {
+ word-wrap: break-word;
+ width:100%;
+ font-size: 45px;
+ font-family:  'Oswald', sans-serif;
+ color: white;
+ letter-spacing: 5px;
+ margin-bottom: 0px;
+ padding-bottom: 0px;
+
+}
 .service-header h2 {
   margin-top: 10px;
-  font-family: 'Open Sans Condensed', sans-serif;
+ font-family:  'Oswald', sans-serif;
   display: inline-block;
   color: white;
   letter-spacing: 3px;
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 25px;
+
+}
+.service-img{
+  height: 70px;
+  width: auto;
+ 
+  padding-top: 10px;
+  margin: auto;
+}
+
+.game {
+ display: inline;
 
 }
 
+.div-service{
 
-
-
-.div-service {
-  padding-top: 50px;
+  padding-bottom: 0px;
 }
-
-.div-service2 {
-  padding-top: 50px;
-}
-.div-service3 {
-  padding-top: 50px;
-}
-
-
-
 
 .gamedev-title h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
+ font-family:  'Oswald', sans-serif;
   word-wrap: break-word;
-  border-bottom:3px solid white; 
-  width:100%;
+  text-align: center;
   padding-bottom:5px;
-  padding-top: 20px;
-  font-size: 18px;
+  font-size: 25px;
   color: white;
-
+  letter-spacing: 3px;
+  padding-top: 20px;
+ padding-left: 0px;
+ padding-right: 0px;
 }
 
 .gamedev-desc h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 10px;
+  font-family:  'Oswald', sans-serif;
   color: white;
   font-size: 15px;
-  text-align: justify-all;
+  text-align: left;
   font-weight: lighter;
-  width:100%;
-  margin-bottom: 50px;
-
-}
-
-.mobileapp-title h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  word-wrap: break-word;
-  border-bottom:3px solid white; 
-  width:100%;
-  padding-bottom:5px;
-  padding-top: 20px;
-  font-size: 18px;
-  color: white;
-}
-
-.mobileapp-desc h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 10px;
-  color: white;
-  font-size: 15px;
-  text-align: justify-all;
-  font-weight: lighter;
-  width:100%;
-  margin-bottom: 50px;
-
-}
-
-.webdev-title h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  word-wrap: break-word;
-  border-bottom:3px solid white; 
-  width:100%;
-  padding-bottom:5px;
-  padding-top: 20px;
-  font-size: 18px;
-  color: white;
-}
-.webdev-desc h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 10px;
-  color: white;
-  font-size: 15px;
-  text-align: justify-all;
-  font-weight: lighter;
-  width:100%;
-  margin-bottom: 50px;
-}
-
-.threed-title h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  word-wrap: break-word;
-  border-bottom:3px solid white; 
-  width:100%;
-  padding-bottom:5px;
-  padding-top: 20px;
-  font-size: 18px;
-  color: white;
-}
+  letter-spacing: 2px;
+  padding-left: 0px;
+ padding-right: 0px;
 
 
-.threed-desc h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 10px;
-  color: white;
-  font-size: 15px;
-  text-align: justify-all;
-  font-weight: lighter;
-  width:100%;
-  margin-bottom: 50px;
-}
-
-.graphics-title h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  word-wrap: break-word;
-  border-bottom:3px solid white; 
-  width:100%;
-  padding-bottom:5px;
-  padding-top: 20px;
-  font-size: 18px;
-  color: white;
-}
-
-.graphics-desc h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 10px;
-  color: white;
-  font-size: 15px;
-  text-align: justify-all;
-  font-weight: lighter;
-  width:100%;
-  margin-bottom: 50px;
 }
 
 
@@ -1204,7 +882,7 @@ margin-bottom: 100px;
 }
 
 .art-header h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family:  'Oswald', sans-serif;
   word-wrap: break-word;
   border-bottom:2px solid white; 
   width:100%;
@@ -1225,61 +903,7 @@ margin-bottom: 100px;
 
 
 
-/*============================WORK============================*/
 
-
-.work {
-
-padding-right: 0px;
-padding-left: 0px;
-}
-.work-header h1{
-  font-family: 'Open Sans Condensed', sans-serif;
-
-  border-bottom:2px solid white; 
-  width:100%;
-  padding-top: 50px;
-  font-size: 25px;
-  font-weight: lighter;
-  color: white;
-
-  text-align: center;
-
-}
-
-.work-header h2 {
-  margin-top: 0px;
-font-family: 'Open Sans Condensed', sans-serif;
-  word-wrap: break-word;
-  display: inline-block;
-  color: white;
-
-  font-weight: lighter;
-  font-size: 18px;
-  text-align: center;
-  width: 100%;
-  padding-top: 10px;
-}
-
-.scolor-desc{
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 50px;
-  text-align: center;
-  color: white;
-  font-size: 15px;
-  text-align: center;
- 
-  padding-bottom: 50px;
-}
-
-.scolor-phone{
-margin-top: 20px;
-  height: 200px;
-  width: auto;
-}
-
-
-/*===============================================================================================*/
 
 /*
 =====================CONTACT-FORM========================================*/
@@ -1287,7 +911,7 @@ margin-top: 20px;
 .first-name{
 
 
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .contact-us-header h1 {
@@ -1313,16 +937,16 @@ margin-bottom: 20px;
 }
 
 .send{
-    letter-spacing: 5px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: white;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    font-size: 20px;
-    padding: 2 2 2 2; 
+  letter-spacing: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-size: 20px;
+  padding: 2 2 2 2; 
 
 
 }
@@ -1341,8 +965,8 @@ margin-bottom: 20px;
   border:none;
   background: transparent;
   font-family: 'Open Sans Condensed', sans-serif;
-letter-spacing: 5px;
-font-size: 20px;
+  letter-spacing: 5px;
+  font-size: 20px;
   color: white;
 }
 
