@@ -153,6 +153,23 @@
 
   /*==================================ABOUT US SECTION=====================================================*/
 
+.about-developers {
+ display: flex;
+  margin-bottom: 30px;
+}
+
+.about-projects{
+
+
+margin-bottom: 30px;
+ display: flex;
+}
+
+.about-technologies{
+
+   display: flex;
+}
+
 .about-us{
 
   padding-right: 50px;
@@ -189,10 +206,10 @@
   color: white;
   font-size: 18px;
   text-align: left;
-  font-weight: 300;
   letter-spacing: 2px;
   padding-left: 0px;
   padding-right: 0px;
+  font-weight: lighter;
 
 
 }
@@ -646,52 +663,6 @@ footer .footer-logo .footer-age-logo {
 
 
 
-  /*==============================DEVELOPER.HTML===============================      */
-
-
-
-.about-developers {
- display: flex;
-  margin-bottom: 30px;
-}
-
-.about-projects{
-
-
-margin-bottom: 30px;
- display: flex;
-}
-
-.about-technologies{
-
-   display: flex;
-}
-
-
-  .dev-img {
-
-    padding-top: 100px;
-    padding-right: 70px;  
-    padding-left: 70px;
-
-  }
-
-  .dev-header h1 {
-    font-family:  'Oswald', sans-serif;
-    word-wrap: break-word;
-    border-bottom:2px solid white; 
-    width:100%;
-
-    font-size: 60px;
-    font-weight: lighter;
-    color: white;
-    letter-spacing: 10px;
-    text-align: center;
-    margin-bottom: 100px;
-
-
-
-  }
 
 /*====================================================================================
 */
@@ -871,6 +842,7 @@ padding-left: 0px;
 
 }
 
+}
 
 /*==============================ART SECTION==================================================*/
 
@@ -930,7 +902,7 @@ padding-left: 0px;
 }
 
 .contact-us-header h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
+   font-family:  'Oswald', sans-serif;
 
   border-bottom:2px solid white; 
   width:100%;
@@ -953,7 +925,7 @@ padding-left: 0px;
 
 .send{
   letter-spacing: 5px;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family:  'Oswald', sans-serif;
   color: white;
   background-color: Transparent;
   background-repeat:no-repeat;
@@ -979,7 +951,7 @@ padding-left: 0px;
   margin-bottom:0;
   border:none;
   background: transparent;
-  font-family: 'Open Sans Condensed', sans-serif;
+   font-family:  'Oswald', sans-serif;
   letter-spacing: 5px;
   font-size: 20px;
   color: white;
@@ -988,4 +960,65 @@ padding-left: 0px;
 /*===============================================================================================*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+  /*===================================================================DEVELOPER.HTML===================================================================================================================      */
+
+
+
+.dev-img-thumb
+{
+
+  padding-bottom: 50px;
 }
+  .dev-img {
+
+    padding-top: 100px;
+    padding-right: 70px;  
+    padding-left: 70px;
+    padding-bottom: 50px;
+
+  }
+
+  .dev-header h1 {
+    font-family:  'Oswald', sans-serif;
+    word-wrap: break-word;
+    border-bottom:2px solid white; 
+    width:100%;
+    padding-top: 50px;
+    font-size: 60px;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+
+
+@media screen and (max-width:768px) {
+
+    .dev-header h1 {
+     font-family:  'Oswald', sans-serif;
+     border-bottom:0px solid white; 
+    letter-spacing: 0px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+}
+
+
